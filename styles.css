@@ -1,0 +1,83 @@
+body{
+  background-color: azure ;
+}
+h1 { font-style: bold;
+  color: gray;
+  text-align-last: center;
+  padding-top: 50px;
+  
+ }
+nav { 
+  width: 960px;
+  margin: 0 auto;  
+}
+nav { 
+  display: block;
+  height: 30px;
+   width: 100%;
+  background: #808080;
+  left: 0;
+  z-index: -1;
+  }
+
+ul {
+  margin: 0;
+  padding: 6px;
+  list-style: none;
+  height: 30px;
+  
+ }
+ul li a{
+  float: left;
+  
+}
+
+ul li a{
+  color: #fff;
+  text-style: sans-serif;
+  display: block;
+  heihgt: 30px;
+  padding: 0 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-heigh: 30px;
+  
+ }
+ul li a:hover{
+  background:	#40e0d0;
+}
+
+ form {
+  padding-left: 900px;
+  float: right;
+  padding-top: 10px;
+  }
+  
+
+ 
+.container {
+  display: grid;
+
+}
+
+
+div { 
+  display: grid;
+  grid-row: 3;
+grid-row-start: 3;
+
+
+}
+img {
+height: 150px;
+width: 250px;
+}2
+
+
+  
+   
+
+
+
+
+  
