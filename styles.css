@@ -1,14 +1,16 @@
+
 body{
+  @media screen (min-width: 520px), and (max-width: 1200px);
   background-color: azure ;
 }
-h1 {
+h1 { 
   color: gray;
-  text-align-last: center;
-  padding-top: 50px;
- }
+  text-align: center;
+  text-shadow:1px 1px 2px #242929;
+  }
  h2 {
   color: #40e0d0;
-  padding-left: 50px;
+  text-shadow:1px 1px 2px #242929;
 }
 h3 {
   color: #242929;
@@ -19,6 +21,8 @@ h4{
   font-size: 2em;
   color: #1cadad ;
   margin-top: auto;
+  margin-bottom: 0;
+  text-shadow:1px 1px 2px #242929
 }
 p {
   color: #242929;
@@ -61,6 +65,7 @@ ul li a{
  }
 ul li a:hover{
   background:	#40e0d0;
+  border-radius: 50%;
 }
 
  form {
@@ -82,14 +87,27 @@ text-align: center;
 img {
 height: 150px;
 width: 250px;
+border-radius: 10%;
+ 
 }
-.box {
-  display: flex;
-
-}
-
+button:hover {
   
-   
+  border-radius: 15%;
+  box-shadow: -5px -5px 0 0 #40e0d0;
+}
+.icon{ 
+  padding-left: 40px;
+  margin-top: -20px;
+ height: 50px;
+  width: 50px;
+ 
+ 
+}  
+   header{ 
+  display:flex;
+  
+
+}
 
 
 
